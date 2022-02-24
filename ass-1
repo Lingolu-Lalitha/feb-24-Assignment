@@ -1,0 +1,25 @@
+n=int(input("enter a value:"))
+l=[]
+for i in range(0,n):
+    x=int(input())
+    l.append(x)
+c=0
+for i in l:
+    if i%2==0:
+        pass
+    else:
+        c=c+1                                                                                                                         
+print("count is",c)
+OUTPUT:
+enter a value:10
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+count is 5
